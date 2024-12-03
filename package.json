@@ -1,6 +1,6 @@
 {
-  "name": "express-template",
-  "version": "1.0.0",
+  "name": "node-express-template",
+  "version": "1.0.6",
   "type": "module",
   "description": "npm package to get ready to go Node/Express code template",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "inquirer": "^12.1.0"
   },
   "bin": {
-    "node-express-template": "index.js"
+    "node-express-template": "./index.js"
   },
   "keywords": [
     "express",

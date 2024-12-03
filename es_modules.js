@@ -90,7 +90,8 @@ const appContent = (moduleType, packageList) =>
   moduleType === "Yes"
     ? `import express, { urlencoded } from "express";
 ${packageList.includes("cors") ? `import cors from "cors";` : ""}
-import path from "path";
+${packageList.includes("ejs") ? `import path from "path";` : ""}
+
 ${
   packageList.includes("cookie-parser")
     ? `import cookieParser from "cookie-parser";`
@@ -131,7 +132,8 @@ app.get("/", (req, res) => {
     : `
 const express = require("express");
 ${packageList.includes("cors") ? `const cors = require("cors");` : ""}
-const path = require("path");
+${packageList.includes("ejs") ? `const path = require("path");` : ""}
+
 ${
   packageList.includes("cookie-parser")
     ? `const cookieParser = require("cookie-parser");`
