@@ -1,7 +1,9 @@
 # node-express-template
+
 I am Aniket Jain
 My LinkedIN -> https://www.linkedin.com/in/aniket-jain-637025196/
-/nMy Portfolio -> https://aniketjainportfolio.vercel.app/
+
+My Portfolio -> https://aniketjainportfolio.vercel.app/
 
 I created this package to resolve a problem of writing the code template each time we setup new project, I followed the industry standard folder structure.
 
